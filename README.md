@@ -20,3 +20,5 @@ Project details:
     -> rails server
     
 * http://localhost:3000/apipie will give the "api" lists
+
+* Example: http://localhost:3000/api/v1/movies
