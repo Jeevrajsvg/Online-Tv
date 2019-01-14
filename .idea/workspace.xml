@@ -2,9 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95708f5f-e8db-4415-8e00-abfb7434fd17" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/online-tv.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/.keep" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/v1/base_controller.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/v1/movies_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/v1/order_details_controller.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/v1/seasons_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/episode.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/movie.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/order_detail.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/season.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/spring" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/credentials.yml.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/apipie.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/cors.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20190113081816_create_movies.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20190113081833_create_seasons.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20190113081846_create_episodes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20190113082028_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20190113083948_create_order_details.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/order_details_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/episodes.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/movies.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/order_details.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/seasons.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/episode_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/movie_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/order_detail_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/season_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/.keep" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -48,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_details_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="order_details_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/v1/order_details_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -57,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_detail.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order_detail.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/order_detail.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -358,12 +448,13 @@
       <workItem from="1547461601942" duration="1788000" />
       <workItem from="1547463411619" duration="1797000" />
       <workItem from="1547465447858" duration="1788000" />
-      <workItem from="1547467254263" duration="1102000" />
+      <workItem from="1547467254263" duration="1791000" />
+      <workItem from="1547469073563" duration="687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45368000" />
+    <option name="totallyTimeSpent" value="46744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1362" height="780" extended-state="6" />
@@ -670,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/v1/order_details_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/season.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -686,8 +770,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/order_detail.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/v1/order_details_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>

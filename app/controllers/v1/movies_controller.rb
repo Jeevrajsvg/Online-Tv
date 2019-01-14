@@ -1,58 +1,39 @@
 module V1
   class MoviesController < BaseController
-    skip_before_action :verify_authenticity_token
 
     def_param_group :movie do
-      param :title, String, required: true
+      param :movie, Hash, :required => true do
+        param :title, String, required: true
+        param :plot, String, required: true
+      end
     end
 
-    api!
+    api :GET, "/v1/movies", "Listing of all Movies"
     def index
-      @movies = Movie.order(:title)
-      render json: @movies
+      movies = Movie.order(:created_at)
+      render json: {movies: movies}
     end
 
-    api!
-    def show
-      @movie = Movie.find(params[:id])
-      render json: @movie
+    api :GET, "/v1/fetch_user_movies/user_id", "Listing of specific user movies with passing User Id (Enhancement method)"
+    def fetch_user_movies
+     user_movies = Movie.user_movies(params["user_id"])
+     render json: user_movies
     end
 
-    api!
+    api :POST, "/v1/movies", "Creating new Movie"
     param_group :movie
     def create
-      @movie = Movie.new(movie_parmas)
-      if @movie.save
-        render json: @movie, status: :created, location: @movie
+      movie = Movie.new(movie_parmas)
+      if movie.save
+        render json: {movie: movie}
       else
-        render json: @movie.errors, status: :unprocessable_entity
+        render json: movie.errors, status: :unprocessable_entity
       end
-    end
-
-    api!
-    param_group :movie
-    def update
-      @movie = Movie.find(params[:id])
-      if @movie.update_attributes(movie_parmas)
-        head :no_content
-      else
-        render json: @movie.errors, status: :unprocessable_entity
-      end
-    end
-
-    api!
-    def destroy
-      @movie = User.find(params[:id])
-      @movie.destroy
-      head :no_content
     end
 
     private
-
     def movie_parmas
-      binding.pry
-      params.require(:movie).permit(:title)
+      params.require(:movie).permit(:title,:plot)
     end
-
   end
 end
