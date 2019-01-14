@@ -5,20 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version --> ruby-2.6.0
 
-* System dependencies
+* Ruby version --> Rails 5.2.2
 
-* Configuration
+* Database creation --> rake db:create && rake db:seed && rake db:migrate
 
-* Database creation
+* Database initialization --> Mysql with User and Password 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the project
+    -> git clone 
+    -> bundle install
+    -> rake db:create && rake db:seed && rake db:migrate
+    -> rails server
