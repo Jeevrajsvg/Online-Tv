@@ -7,7 +7,7 @@ module UserOrderLibrary
     order_date_parsed = DateTime.parse(order_date.to_s,'%m/%d/%Y %H:%M %P')
     current_date_parsed = DateTime.now
     expire_date = order_date_parsed + two_days
-    remaining_days = (order_date_parsed - current_date_parsed)
+    remaining_days = (expire_date - current_date_parsed)
     (expire_date == current_date_parsed) ? User.current_user(user.id).order_details.delete_all : "#{user.email} has remaining #{remaining_days.to_i} day to watch the content"
   end
 
