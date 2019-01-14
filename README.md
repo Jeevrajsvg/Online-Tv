@@ -3,7 +3,7 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Project details:
 
 * Ruby version --> ruby-2.6.0
 
@@ -11,10 +11,12 @@ Things you may want to cover:
 
 * Database creation --> rake db:create && rake db:seed && rake db:migrate
 
-* Database initialization --> Mysql with User and Password 
+* Database initialization --> Mention mysql authentication with User and Password in database.yml file
 
 * How to run the project
     -> git clone 
     -> bundle install
     -> rake db:create && rake db:seed && rake db:migrate
     -> rails server
+    
+* http://localhost:3000/apipie will give the "api" lists

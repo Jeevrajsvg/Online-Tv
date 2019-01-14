@@ -29,7 +29,7 @@ module V1
       render json: {remaining_time: order_details}
     end
 
-    api :POST, "/v1/order_details","Creating Order Details passing with {used_id, order_type, order_id, price, quality}"
+    api :POST, "/v1/order_details","Adding user to perform a purchase of a content in OrderDetail passing with {used_id, order_type, order_id, price, quality}"
     param_group :order_detail
     def create
       order_detail = OrderDetail.user_exist_for_order_detail(order_detail_params)
