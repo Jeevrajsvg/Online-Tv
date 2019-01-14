@@ -19,6 +19,10 @@ Project details:
     -> rake db:create && rake db:seed && rake db:migrate
     -> rails server
     
+* User.create!(email: "abc@gmail.com")
+
+* Episode.create(title: "Episode",plot: "The Episode",season_id: 1) "season_id" should be Season object ID 
+    
 * http://localhost:3000/apipie will give the "api" lists
 
 * Example: http://localhost:3000/api/v1/movies
